@@ -1,0 +1,102 @@
+.container{
+    width: 607px;
+    height: 829px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-color: rgb(53, 53, 112);
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+
+}
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border-left: 45px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ width: 78px;
+ height: 78px;
+ background: #ebfffc;
+ border-radius: 40px;;
+ cursor: pointer;
+}
+.weather-image{
+    margin-top: 29px;
+display: flex;
+justify-content: center;
+}
+.weather-temp{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 60px;
+font-weight: 50;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.forecast-container-vertical{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.forecast-day-vertical{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 15; 
+}
+.forecast-icon-vertical{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.forecast-temperature-vertical{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 15; 
+}
+.data{
+    font-size:25px ;
+    font-weight: 15;
+}
